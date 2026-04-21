@@ -83,7 +83,7 @@ export default function HeroSection() {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
-    <section id="home" className="relative min-h-screen pt-32 pb-20 px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-white via-[#dbd4e1] to-[#e4d7f3]" style={{ borderBottom: '5px solid #8B7BA8', borderBlockStartColor: '#8B7BA8', borderRadius: '20px' }}>
+    <section id="home" className="relative pt-32 pb-12 px-6 lg:px-8 overflow-hidden bg-gradient-to-b from-white via-[#dbd4e1] to-[#e4d7f3]" style={{ borderBottom: '5px solid #8B7BA8', borderBlockStartColor: '#8B7BA8', borderRadius: '20px' }}>
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -110,14 +110,14 @@ export default function HeroSection() {
             className="space-y-8"
           >
             {/* Badge */}
-            <motion.div variants={itemVariants} className="inline-block">
+            {/* <motion.div variants={itemVariants} className="inline-block">
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-[var(--primary-100)] to-[var(--secondary-100)] border border-[var(--primary-200)]">
                 <Sparkles className="w-4 h-4 text-[var(--primary-600)]" />
                 <span className="text-sm font-medium text-[var(--primary-700)]">
                   Where Code Meets Intelligence
                 </span>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* Headline */}
             <motion.div variants={itemVariants}>
@@ -140,7 +140,7 @@ export default function HeroSection() {
 
             {/* Trust Indicators */}
             <motion.div variants={itemVariants} className="grid grid-cols-3 gap-6 py-4">
-              <div className="flex items-start gap-3">
+              {/* <div className="flex items-start gap-3">
                 <div className="p-2 rounded-lg bg-[var(--primary-100)]">
                   <Zap className="w-5 h-5 text-[var(--primary-600)]" />
                 </div>
@@ -166,7 +166,7 @@ export default function HeroSection() {
                   <div className="font-semibold text-[var(--neutral-900)]">AI-Powered</div>
                   <div className="text-sm text-[var(--neutral-700)]">Smart solutions</div>
                 </div>
-              </div>
+              </div> */}
             </motion.div>
 
             {/* CTAs */}
@@ -191,7 +191,7 @@ export default function HeroSection() {
             </motion.div>
 
             {/* Social Proof */}
-            <motion.div variants={itemVariants} className="pt-8 border-t border-[var(--neutral-200)]">
+            {/* <motion.div variants={itemVariants} className="pt-8 border-t border-[var(--neutral-200)]">
               <p className="text-sm text-[var(--neutral-600)] mb-4">Trusted by industry leaders</p>
               <div className="flex items-center gap-8 opacity-60">
                 <div className="font-semibold text-[var(--neutral-700)]">Microsoft</div>
@@ -199,7 +199,7 @@ export default function HeroSection() {
                 <div className="font-semibold text-[var(--neutral-700)]">Stripe</div>
                 <div className="font-semibold text-[var(--neutral-700)]">Shopify</div>
               </div>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
 
           {/* Right Column - Visuals */}
