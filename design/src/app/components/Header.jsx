@@ -75,7 +75,7 @@ export default function Header() {
           <motion.a 
             href="#home"
             onClick={(e) => handleNavClick(e, 'home')}
-            className="flex items-center cursor-pointer relative z-10 py-3"
+            className="flex items-center cursor-pointer relative z-10 py-4 mt-4"
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
           >
@@ -111,13 +111,13 @@ export default function Header() {
                 )}
               </a>
             ))}
-            <motion.button
+            {/* <motion.button
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="ml-4 px-6 py-2.5 rounded-full bg-gradient-to-r from-[var(--primary-600)] to-[var(--primary-700)] text-white font-medium hover:shadow-lg transition-all"
             >
               Get Started
-            </motion.button>
+            </motion.button> */}
           </nav>
 
           {/* Mobile Menu Button */}
