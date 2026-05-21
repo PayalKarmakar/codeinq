@@ -63,12 +63,12 @@ export default function SolutionsSection() {
             <span className="text-sm font-medium text-[var(--primary-700)]">Business Solutions</span>
           </motion.div>
           
-          <h2 className="text-4xl lg:text-5xl mb-6">
+          {/* <h2 className="text-4xl lg:text-5xl mb-6">
             <span className="block text-[var(--neutral-900)]">Outcomes That</span>
             <span className="block bg-gradient-to-r from-[var(--primary-700)] to-[var(--secondary-700)] bg-clip-text text-transparent">
               Drive Business Growth
             </span>
-          </h2>
+          </h2> */}
           
           <p className="text-lg text-[var(--neutral-700)] max-w-2xl mx-auto">
             We build solutions focused on measurable results—not just features. 

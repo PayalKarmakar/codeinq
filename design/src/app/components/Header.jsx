@@ -1,6 +1,6 @@
 import { motion, useScroll, useTransform } from 'motion/react';
 import { useState, useEffect } from 'react';
-import logo from '@/assets/e067c019f0a49821135e11a5c1935858a9fcfec6.png';
+import logo from '@/assets/Logo-4.png';
 import { Menu, X } from 'lucide-react';
 
 export default function Header() {

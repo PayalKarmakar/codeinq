@@ -3,6 +3,8 @@ import { ArrowRight, Sparkles, Zap, Shield } from 'lucide-react';
 import heroImage from '@/assets/92fa614c9071c03343a02984dc425185e92a1357.png';
 import { useState } from 'react';
 import ConsultationModal from './ConsultationModal';
+import image1 from "@/assets/1.png";
+import image2 from "@/assets/2.png";
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -171,14 +173,14 @@ export default function HeroSection() {
 
             {/* CTAs */}
             <motion.div variants={itemVariants} className="flex flex-col sm:flex-row gap-4 pt-4">
-              <motion.button
+              {/* <motion.button
                 whileHover={{ scale: 1.02, boxShadow: '0 20px 40px rgba(46, 49, 146, 0.3)' }}
                 whileTap={{ scale: 0.98 }}
                 className="group px-8 py-4 rounded-full bg-gradient-to-r from-[var(--primary-600)] to-[var(--primary-700)] text-white font-medium shadow-lg hover:shadow-xl transition-all flex items-center justify-center gap-2"
               >
                 Start Your Project
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </motion.button>
+              </motion.button> */}
               
               <motion.button
                 onClick={() => setIsModalOpen(true)}
@@ -232,10 +234,11 @@ export default function HeroSection() {
               className="absolute top-0 left-0 w-48 h-48 rounded-2xl overflow-hidden shadow-xl border border-[var(--neutral-200)] z-30 opacity-90"
             >
               <img
-                src="https://images.unsplash.com/photo-1764336312138-14a5368a6cd3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhcnRpZmljaWFsJTIwaW50ZWxsaWdlbmNlJTIwYnJhaW4lMjBuZXVyYWwlMjBuZXR3b3JrJTIwcHVycGxlfGVufDF8fHx8MTc3MDYxOTQ2NXww&ixlib=rb-4.1.0&q=80&w=1080"
+                src={image1}
                 alt="AI Intelligence"
                 className="w-full h-full object-cover"
               />
+
               <div className="absolute inset-0 bg-gradient-to-br from-[var(--primary-600)]/30 to-[var(--accent-600)]/20 mix-blend-overlay" />
             </motion.div>
 
@@ -262,7 +265,7 @@ export default function HeroSection() {
               className="absolute top-12 right-0 w-52 h-48 rounded-2xl overflow-hidden shadow-xl border border-[var(--neutral-200)] z-30 opacity-90"
             >
               <img
-                src="https://images.unsplash.com/photo-1770520212758-ff3c4e5e11b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxhbmFseXRpY3MlMjBkYXNoYm9hcmQlMjBkYXRhJTIwdmlzdWFsaXphdGlvbiUyMHB1cnBsZXxlbnwxfHx8fDE3NzA2MTk0NjZ8MA&ixlib=rb-4.1.0&q=80&w=1080"
+                src={image2}
                 alt="Analytics Dashboard"
                 className="w-full h-full object-cover"
               />
