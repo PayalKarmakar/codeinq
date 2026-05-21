@@ -1,6 +1,6 @@
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Linkedin, Twitter, Github, Facebook, ArrowRight } from 'lucide-react';
-import logo from '@/assets/e067c019f0a49821135e11a5c1935858a9fcfec6.png';
+import logo from '@/assets/Logo-4.png';
 import { useState } from 'react';
 import ConsultationModal from './ConsultationModal';
 
@@ -66,22 +66,22 @@ export default function Footer() {
               {/* Contact Info */}
               <div className="space-y-3">
                 <a
-                  href="mailto:hello@codeinq.com"
+                  href="mailto:info@codeinq.com"
                   className="flex items-center gap-3 text-[var(--neutral-400)] hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 rounded-lg bg-[var(--neutral-800)] flex items-center justify-center group-hover:bg-[var(--primary-600)] transition-colors">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <span>hello@codeinq.com</span>
+                  <span>info@codeinq.com</span>
                 </a>
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+91 7278989577"
                   className="flex items-center gap-3 text-[var(--neutral-400)] hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 rounded-lg bg-[var(--neutral-800)] flex items-center justify-center group-hover:bg-[var(--primary-600)] transition-colors">
                     <Phone className="w-5 h-5" />
                   </div>
-                  <span>+1 (234) 567-8900</span>
+                  <span>+91 7278989577</span>
                 </a>
                 <div className="flex items-center gap-3 text-[var(--neutral-400)]">
                   <div className="w-10 h-10 rounded-lg bg-[var(--neutral-800)] flex items-center justify-center">

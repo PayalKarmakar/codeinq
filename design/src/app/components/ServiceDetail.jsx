@@ -16,7 +16,7 @@ const serviceData = {
   // Add other service types here...
 };
 
-export default function ServiceDetail({ serviceType = 'web' }: ServiceDetailProps) {
+export default function ServiceDetail({ serviceType = 'web' }) {
   const service = serviceData[serviceType];
 
   return (
@@ -39,14 +39,14 @@ export default function ServiceDetail({ serviceType = 'web' }: ServiceDetailProp
               </h1>
               <p className="text-xl text-[var(--neutral-700)] mb-8">{service.subtitle}</p>
               <p className="text-lg text-[var(--neutral-700)] leading-relaxed mb-8">{service.description}</p>
-              <motion.button
+              {/* <motion.button
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className={`px-8 py-4 rounded-full bg-gradient-to-r ${service.gradient} text-white font-medium shadow-lg inline-flex items-center gap-2`}
               >
                 Start Your Project
                 <ArrowRight className="w-5 h-5" />
-              </motion.button>
+              </motion.button> */}
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 50 }}

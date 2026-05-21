@@ -108,7 +108,7 @@ export default function ConsultationModal({ isOpen, onClose }) {
                           value={formData.name}
                           onChange={handleChange}
                           className="w-full pl-12 pr-4 py-3 border-2 border-[var(--neutral-200)] rounded-xl focus:outline-none focus:border-[var(--primary-600)] transition-colors"
-                          placeholder="John Doe"
+                          placeholder="Name"
                         />
                       </div>
                     </div>
@@ -128,7 +128,7 @@ export default function ConsultationModal({ isOpen, onClose }) {
                           value={formData.email}
                           onChange={handleChange}
                           className="w-full pl-12 pr-4 py-3 border-2 border-[var(--neutral-200)] rounded-xl focus:outline-none focus:border-[var(--primary-600)] transition-colors"
-                          placeholder="john@company.com"
+                          placeholder="Email Address"
                         />
                       </div>
                     </div>
